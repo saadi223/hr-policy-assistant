@@ -8,3 +8,4 @@ numpy>=1.26,<3
 # CPU-only PyTorch reduces deployment download size. Target: Linux, Python 3.11.
 --extra-index-url https://download.pytorch.org/whl/cpu
 torch==2.6.0+cpu
+pypdf>=5.6,<7
