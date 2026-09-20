@@ -1,0 +1,10 @@
+streamlit>=1.41,<2
+groq>=0.31,<1
+sentence-transformers>=3.4,<6
+transformers>=4.48,<5
+faiss-cpu>=1.10,<2
+PyMuPDF>=1.25,<2
+numpy>=1.26,<3
+# CPU-only PyTorch reduces deployment download size. Target: Linux, Python 3.11.
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.6.0+cpu

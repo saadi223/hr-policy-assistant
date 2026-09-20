@@ -1,0 +1,23 @@
+# Credentials
+.streamlit/secrets.toml
+.env
+.env.*
+!.env.example
+
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Private policies and generated indexes
+*.pdf
+*.faiss
+*.index
+uploads/
+.cache/
+
+# Operating system files
+.DS_Store
+Thumbs.db
